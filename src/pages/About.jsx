@@ -153,7 +153,7 @@ const [open,setOpen]= useState(false);
           </Typography>
 
           <Grid container spacing={2} sx={{ p: 2 }}>
-          {imagesList.map(image => (
+           {imagesList.map(image => (
             <Grid key={image.id} item xs={6} sm={4} md={3} lg={2}>
               <Paper sx={{ p: 2, textAlign: 'center', height:'50%', width: '50%'}}>
                 <img

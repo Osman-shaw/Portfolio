@@ -112,3 +112,23 @@
  padding-top: 50px;
  margin-left: 50px;
 }
+.top__header__service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.main__service__intro{
+    color: rgb(71, 65, 31);
+}
+.service__title{
+    color: rgb(71, 65, 31);
+    font-size: 20px;
+    padding-top: 15px;
+}
+.modal___title{
+    color: rgb(71, 65, 31);
+}
+.para__content{
+    color: #f4ecec ;
+}
