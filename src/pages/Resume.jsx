@@ -8,7 +8,9 @@ const Resume =()=> {
 
 
     return (
+
       <>
+      
        <Card style={{width: '80%', height: '60%', marginLeft: 80,
             backgroundColor: 'rgb(8, 8, 45' ,
             borderStyle: 'none',

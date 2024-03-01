@@ -9,40 +9,41 @@ import ForexTrader from '../assets/skills/Forex.jpeg'
 import Wordpress from '../assets/skills/wordpress.jpeg'
 
 
-const myService =[
-  {
-    id: 0,
-    src: Webdev ,
-    alt: "web",
+// const myService =[
+//   {
+//     id: 0,
+//     src: Webdev ,
+//     alt: "web",
 
-  },
-  {
-    id: 1,
-    src: DataAnalyst  ,
-    alt: "data",
+//   },
+//   {
+//     id: 1,
+//     src: DataAnalyst  ,
+//     alt: "data",
 
-  },
-  {
-    id: 2,
-    src: ForexTrader  ,
-    alt: "forex",
+//   },
+//   {
+//     id: 2,
+//     src: ForexTrader  ,
+//     alt: "forex",
 
-  },
-  {
-    id: 3,
-    src: Wordpress ,
-    alt: "wordpress",
+//   },
+//   {
+//     id: 3,
+//     src: Wordpress ,
+//     alt: "wordpress",
 
-  },
-]
+//   },
+// ]
 
 const Service=()=> {
     return (
       <>
-      <div className="top__header__service">
+   
+        <div className="top__header__service">
         <h1 className="main__service__intro">Services</h1>
-       </div>
-       <Grid container spacing={2} style={{paddingTop: '60px'}}>
+        </div>
+        <Grid container spacing={2} style={{paddingTop: '60px'}}>
         <Grid item xs={6} >
          <Card style={{ width: '80%', height: '200px', marginLeft: 50 ,
             backgroundColor: 'rgb(8, 8, 45' , border: '2px solid #081545',
