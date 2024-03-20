@@ -57,7 +57,7 @@ import {toast} from 'react-toastify';
               border: '1px solid rgb(8, 8, 45'}}>
                <img className="screen" src={screen} alt="screen-view"  style={{ objectFit: 'cover'}}/> 
                    
-             </Card>
+              </Card>
 
             <Card style={{ width: '40%',
             height: 330 , marginLeft: 70, 

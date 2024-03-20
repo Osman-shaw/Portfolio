@@ -1,8 +1,7 @@
 import React from "react";
-import Button from '@mui/joy/Button';
 import Card from '@mui/joy/Card';
-// import CV from '../assets/skills/cv.pdf'
 import view from '../assets/cv.pdf'
+
 
 const Resume =()=> {
 

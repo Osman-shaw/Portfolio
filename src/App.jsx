@@ -6,10 +6,9 @@ import Resume from "./pages/Resume"
 import Project from "./pages/Project"
 import Service from "./pages/Service"
 import Contact from "./pages/Contact"
-// import Router from "./Router"
 import Navbar from "./router/Navbar";
 import './App.css'
-
+// import './index.css'
 
 const App=()=> {
   return (
@@ -20,8 +19,8 @@ const App=()=> {
        <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/resume" element={<Resume/>} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/Resume"  element={<Resume/>} />
         <Route path="/service" element={<Service />} />
         <Route path="/project" element={<Project />} />
       </Routes>
